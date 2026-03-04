@@ -1,1 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Falist Math Education</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: 'Arial', sans-serif;
+            overflow: hidden;
+        }
+        /* Split Background: Orange Top (50%), Black Bottom (50%) */
+        body {
+            background: linear-gradient(to bottom, #FFA500 50%, #000000 50%);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            padding: 60px 0;
+            box-sizing: border-box;
+        }
+        /* Black Header Text */
+        h1 {
+            color: #000000;
+            margin: 0;
+            font-size: 3rem;
+            text-transform: uppercase;
+            font-weight: 900;
+            letter-spacing: 2px;
+            text-align: center;
+        }
+        /* Container for the buttons at the bottom */
+        .button-group {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        /* Button Style */
+        .btn {
+            padding: 18px 50px;
+            background-color: #FFA500;
+            color: #ffffff;
+            border: 3px solid #ffffff;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2rem;
+            width: 280px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+            transition: all 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #ffffff;
+            color: #FFA500;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Falist Math Education</h1>
+
+    <div class="button-group">
+        <!-- TikTok Link -->
+        <a href="https://tiktok.com" class="btn">RESOURCES</a>
+        
+        <!-- More Resources Link (Redirects to Cube Game) -->
+        <a href="https://google.com" class="btn">MORE RESOURCES</a>
+    </div>
+
+</body>
+</html>
 
